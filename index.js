@@ -6,7 +6,7 @@ let b= 7.99;
 
 let c= b * 2;
 console.log(c + a)
-
+console.log("Mansoor")
 
 
 //   how to calculate percentage
