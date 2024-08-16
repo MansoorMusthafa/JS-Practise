@@ -13,7 +13,7 @@ console.log("push only to develop")
 
 //   1% = 1/100
 
-// 10%= 10/100
+// 10%= 10/10
 
 let d= 3/100;
 console.log(d);
