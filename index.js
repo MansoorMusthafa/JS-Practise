@@ -1,20 +1,27 @@
+// let a= .95;
+
+// let b= 7.99;
+
+// let c= b * 2;
+// console.log(c + a)
 
 
-let a= .95;
+// //   how to calculate percentage
 
-let b= 7.99;
+// //   1% = 1/100
 
-let c= b * 2;
-console.log(c + a)
+// // 10%= 10/100
 
-
-//   how to calculate percentage
-
-//   1% = 1/100
-
-// 10%= 10/100
-
-let d= 3/100;
-console.log(d);
+// let d= 3/100;
+// console.log(d);
 
 
+// console.log('Items'+" ("+(1 + 1)+"):"+" $"+(20.95 + 7.99))
+
+                                       // Variable
+
+
+
+
+
+                                       
