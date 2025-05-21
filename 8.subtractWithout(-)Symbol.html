@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      function subtract(a, b) {
+        let smaller = Math.min(a, b); // Find the smaller number
+        let larger = Math.max(a, b); // Find the larger number
+        let count = 0;
+
+        // Count numbers between smaller and larger
+        while (smaller < larger) {
+          smaller++;
+          count++;
+        }
+
+        // If the smaller number was the original 'b', return -count
+        return a < b ? -count : count;
+      }
+
+      // Examples
+      console.log(subtract(1000, 10));
+      console.log(subtract(6728280, 83838));
+      console.log(subtract(3088, 15));
+    </script>
+  </body>
+</html>

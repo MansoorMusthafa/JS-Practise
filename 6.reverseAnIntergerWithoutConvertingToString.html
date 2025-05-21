@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      function reversedNum(abc) {
+        let rev = 0;
+        while (abc > 0) {
+          rev = rev * 10 + (abc % 10);
+          console.log(rev);
+          abc = Math.floor(abc/10);
+          console.log(abc);
+        }
+        return rev;
+      }
+      console.log(reversedNum(123456));
+
+
+      let a = "mansoor";
+      let b = a.split('').reverse().join('');
+      console.log(b, typeof b)
+    </script>
+  </body>
+</html>

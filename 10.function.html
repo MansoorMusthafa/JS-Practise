@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- *Function let us reuse code  -->
+
+    <script>
+
+
+        //  in function if we have parameter and arguments the paramenter value will what is gven in the arguments , if  want to use the parameter outside the function scope we need to return the value , the return value ie the code inside the function we will declare in a variable that vaiable we should return and if we want to use , call the function and store into the variable and iif the console the variable which we call the function it will give the output of the inside function code
+
+
+
+
+
+
+
+
+
+
+
+      // function abc() {
+      //   console.log("hello");
+      //   console.log(2 + 2);
+      // }
+
+      // abc();
+
+      // Understandings of parameter in functions
+
+      // const computerMove= pickComputerMove();
+
+      //   let result = '';
+
+      // if (computerMove === 'rock'){
+      //     result = 'You Lose'
+      // } else if (computerMove === 'paper'){
+      //   result = 'You Win';
+
+      // } else if (computerMove === 'scissor'){
+      //   result = 'So Tie'
+      // }
+
+      // In The above code we are doing same functionalities three times but small changes just we are changing the text
+      // in this situation we can functions itself but we can  use parameterrs for minor changes
+
+      // Difference Between return and parameters
+
+      // return = gets a value out of a function
+      // parameter = puts a value into a function
+
+      //  using single parameter
+
+      //  function parameter(cost) {
+      //   console.log(cost * 10)
+      //  }
+
+      //  parameter(1000)
+
+      //  using double parameter
+
+      function parameter(cost, taxPercent) {
+        console.log(cost * taxPercent);
+      }
+
+      parameter(1000, 0.8);
+      //  parameter(1000)/////////It will give NaN as a output  becuase for taxpercent we are not passing any value so it will became undefined and if undefined into number became NaN
+
+      // Setting default Value to a parameter
+      function parameter(cost, taxPercent = 20) {
+        console.log(cost * taxPercent);
+      }
+
+      parameter(1000, 10);
+      parameter(2000)
+    </script>
+  </body>
+</html>

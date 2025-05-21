@@ -22,12 +22,12 @@
 
 // let x = 0;
 // while ((x++ < 5, x < 3)) {
-//   console.log(x);+
+//   console.log(x);
 // }
 
 // function foo(a,b,c){
 //   arguments[0] = 10;
-//   console.log(c, arguments[0]);
+//   console.log(c,a,  arguments[0]);
 
 // }
 // foo(1,2,3)
@@ -57,13 +57,10 @@
 //   console.log("none");
 // }
 
-
 // let s= [1, 2, 3, 4]
 // console.log(s)
 
-
 // console.log("1 " + "- " + (1*1))
-
 
 // console.log("1","2","3","4\n5");
 
@@ -73,9 +70,6 @@
 //  console.log(typeof x)
 // console.log( x + y)
 
-
-
-
 //////////////////////////////////Adding  with string ///////////////////
 // let x= "64";
 // let y = 8;
@@ -83,12 +77,46 @@
 // console.log( x + y)
 
 ////////////////////////////////MUltiply  with string ///////////////////
-// let x= "64";
+// let x= "9";
 // let y = 8;
 
-// console.log( x * y)
+// console.log( x * y)    
+//  if we try to use + and - it will convert number to string, but if we use - and * it will convert string to number 
 
-   
-// let x = Boolean("False");  Js will not inside string letters , it will see only type , no matter what inside text ex("false") if we use Boolean()function it will convert to true 
+// let x = Boolean("False");  Js will not inside string letters , it will see only type , no matter what inside text ex("false") if we use Boolean()function it will convert to true
 
 // console.log(x)
+
+// let a = "Today is : ";
+// let b = console.log(a + Date());
+
+
+
+// let a = 10;
+
+
+
+
+// if ( a >= 20) {
+//     console.log("Number is lesser");
+// } else if (a <= 20){
+//     console.log("Number is into ")
+// } else if (a == 10){
+//     console.log("Done")
+// }else{
+//     console.log("error")
+// }
+
+
+let a= 'Mansoor';
+
+ let b = a.split("")
+
+ console.log(b)
+
+ let c = b.reverse("")
+ console.log(c)
+
+ let d = c.join("");
+
+ console.log(c)

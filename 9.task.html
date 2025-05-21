@@ -6,14 +6,18 @@
     <title>Document</title>
   </head>
   <body>
-    <script>
-      let a = 2;
 
-      if ((a %= 0)) {
-        console.log("true");
-      } else {
-        console.log("false");
-      }
+     
+
+    <script>
+      let hour = new Date();
+      let min = hour.getHours();
+      let sec = hour.getMinutes();
+      console.log(sec)
+      console.log(min)
+     
+
+      console.log(`The time is ${min} hours and ${sec} seconds`)
     </script>
   </body>
 </html>
